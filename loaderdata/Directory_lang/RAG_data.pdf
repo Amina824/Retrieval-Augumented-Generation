@@ -1,0 +1,43 @@
+. What is RAG?
+• Retrieval-Augmented Generation (RAG) combines information retrieval with text generation.
+• A RAG system retrieves relevant information from an external knowledge source and provides that information
+to a language model before generating an answer.
+6. Why Use RAG?
+• RAG can help applications answer questions using private, domain-specific, or frequently updated information.
+• Examples include question answering over company documents, university notes, manuals, research papers,
+and project documentation.
+7. Main RAG Pipeline
+• 1. Load data from sources such as TXT, CSV, PDF, or web pages.
+• 2. Split large documents into smaller chunks.
+• 3. Convert chunks into numerical embeddings.
+• 4. Store embeddings in a vector database or vector store.
+• 5. Retrieve the most relevant chunks for a user question.
+• 6. Give the question and retrieved context to an LLM to generate the answer.
+8. RAG Components
+• Document Loader: Loads information from files or other sources.
+• Text Splitter: Divides documents into smaller chunks.
+• Embedding Model: Converts text into vectors representing semantic meaning.
+• Vector Store: Stores and searches vector representations.
+• Retriever: Finds relevant documents or chunks.
+• LLM: Generates a natural-language response using the retrieved context.
+9. Python + RAG
+• Python is commonly used for RAG because its ecosystem provides tools for document processing,
+embeddings, vector stores, and language models.
+• A typical project may use LangChain for orchestration, an embedding model for vectors, Chroma as a vector
+store, and an LLM for response generation.
+10. Example RAG Flow
+• A user asks: What is LangChain?
+• The retriever searches the knowledge base for relevant LangChain information.
+• The retrieved chunks are provided to the language model with the question.
+• The model generates an answer using the retrieved context.
+11. Important RAG Terms
+• Chunk: A smaller section of a document.
+• Embedding: A numerical representation of text meaning.
+• Vector: A list of numbers representing information mathematically.
+• Similarity Search: Finds vectors that are close to a query vector.
+• Context: Retrieved information supplied to the language model.
+• Hallucination: An incorrect or unsupported model-generated statement.
+12. Simple Python + RAG Structure
+• A project can separate document loading, chunking, embeddings, retrieval, and generation into different
+Python files.
+• Example folders: data/, loaders/, embeddings/, vectorstore/, retrieval/, and main.py.

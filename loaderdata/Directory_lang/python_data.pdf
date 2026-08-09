@@ -1,0 +1,16 @@
+
+1. Python Overview
+• Python is a high-level, general-purpose programming language with readable syntax and a large ecosystem.
+• Python is widely used in artificial intelligence, machine learning, data science, automation, web development,
+and scripting.
+• Important concepts include variables, data types, conditions, loops, functions, classes, modules, exceptions,
+and file handling.
+2. Python Data Types
+• Common types include int, float, str, bool, list, tuple, dict, and set.
+• Lists store ordered collections, dictionaries store key-value pairs, and sets store unique values.
+3. Python Functions
+• A function is a reusable block of code that performs a task. It can receive parameters and return a result.
+• Functions help divide an application into smaller and easier-to-maintain components.
+4. Python File Handling
+• Python can read and write files using the built-in open() function.
+• File handling is useful for loading text and other data before pr
