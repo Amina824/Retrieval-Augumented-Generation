@@ -1,0 +1,21 @@
+topic,component,description
+LangChain,Framework,LangChain is a framework for building applications powered by large language models (LLMs).
+LangChain,Purpose,"It helps developers connect LLMs with prompts, tools, data sources, memory, and application logic."
+LangChain,LLM,An LLM generates natural-language responses based on the input and context provided to it.
+LangChain,PromptTemplate,PromptTemplate is used to create reusable prompts with variables.
+LangChain,ChatPromptTemplate,"ChatPromptTemplate is used to create prompts containing different chat message roles such as system, human, and AI."
+LangChain,Document Loader,"Document loaders import data from sources such as text files, CSV files, PDFs, and web pages."
+LangChain,TextLoader,TextLoader loads text from a .txt file into LangChain Document objects.
+LangChain,CSVLoader,CSVLoader loads rows from a CSV file into LangChain Document objects.
+LangChain,Document,A Document contains page content and metadata.
+LangChain,Text Splitter,Text splitters divide large documents into smaller chunks for processing.
+LangChain,Embeddings,Embeddings convert text into numerical vectors so that semantic similarity can be calculated.
+LangChain,Vector Store,A vector store stores embeddings and allows similarity-based retrieval.
+LangChain,RAG,Retrieval-Augmented Generation retrieves relevant information and provides it to an LLM before generating an answer.
+LangChain,Retriever,A retriever searches a data source or vector store for relevant documents.
+LangChain,Memory,Memory can be used to provide previous conversation information to an application.
+LangChain,Tools,"Tools allow an LLM-based application to interact with external functions, APIs, databases, or services."
+LangChain,Agents,Agents can decide which tools to use to complete a task.
+LangChain,Chains,Chains connect multiple processing steps together to create an application workflow.
+LangChain,Output Parser,Output parsers help convert model responses into a desired structured format.
+LangChain,Use Case,"LangChain can be used for chatbots, document question answering, RAG systems, agents, and AI automation."
