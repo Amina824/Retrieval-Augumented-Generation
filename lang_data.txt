@@ -1,0 +1,69 @@
+# LangChain
+
+## Introduction
+
+LangChain is an open-source framework used to build applications powered by Large Language Models (LLMs). It helps developers connect an LLM with external data, tools, APIs, databases, and conversation history.
+
+LangChain is commonly used to build AI chatbots, question-answering systems, RAG applications, AI agents, and automation workflows.
+
+## What is an LLM?
+
+An LLM (Large Language Model) is an AI model that can understand and generate human language. Examples include GPT models, Claude, Gemini, and other language models.
+
+LangChain does not replace the LLM. Instead, it provides tools and structures that make it easier to use an LLM inside an application.
+
+## Main Components of LangChain
+
+### 1. Models
+
+Models are the AI systems that generate responses.
+
+LangChain can work with different types of models, including:
+
+* Chat models
+* Language models
+* Embedding models
+
+Example:
+
+A user asks, "What is machine learning?"
+
+The LLM processes the question and generates an answer.
+
+### 2. Prompts
+
+Prompts provide instructions and information to the AI model.
+
+LangChain provides `PromptTemplate` and `ChatPromptTemplate` for creating reusable prompts.
+
+Example:
+
+```text
+Explain the following topic in simple words:
+{topic}
+```
+
+If the topic is "LangChain", the application can replace `{topic}` with "LangChain".
+
+### 3. ChatPromptTemplate
+
+`ChatPromptTemplate` is used to create prompts containing multiple types of messages.
+
+Common message types are:
+
+* System message: Defines the behavior or role of the AI.
+* Human message: Contains the user's input.
+* AI message: Contains the previous AI response.
+
+Example:
+
+```python
+from langchain_core.prompts import ChatPromptTemplate
+
+prompt = ChatPromptTemplate.from_messages([
+    ("system", "You are a professional AI assistant."),
+    ("human", "{topic}")
+])
+```
+
+The system message gives instructions to the AI, while the human message contains the user's question.
