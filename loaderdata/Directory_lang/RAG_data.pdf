@@ -1,43 +1,105 @@
-. What is RAG?
-• Retrieval-Augmented Generation (RAG) combines information retrieval with text generation.
-• A RAG system retrieves relevant information from an external knowledge source and provides that information
-to a language model before generating an answer.
-6. Why Use RAG?
-• RAG can help applications answer questions using private, domain-specific, or frequently updated information.
-• Examples include question answering over company documents, university notes, manuals, research papers,
-and project documentation.
-7. Main RAG Pipeline
-• 1. Load data from sources such as TXT, CSV, PDF, or web pages.
-• 2. Split large documents into smaller chunks.
-• 3. Convert chunks into numerical embeddings.
-• 4. Store embeddings in a vector database or vector store.
-• 5. Retrieve the most relevant chunks for a user question.
-• 6. Give the question and retrieved context to an LLM to generate the answer.
-8. RAG Components
-• Document Loader: Loads information from files or other sources.
-• Text Splitter: Divides documents into smaller chunks.
-• Embedding Model: Converts text into vectors representing semantic meaning.
-• Vector Store: Stores and searches vector representations.
-• Retriever: Finds relevant documents or chunks.
-• LLM: Generates a natural-language response using the retrieved context.
-9. Python + RAG
-• Python is commonly used for RAG because its ecosystem provides tools for document processing,
-embeddings, vector stores, and language models.
-• A typical project may use LangChain for orchestration, an embedding model for vectors, Chroma as a vector
-store, and an LLM for response generation.
-10. Example RAG Flow
-• A user asks: What is LangChain?
-• The retriever searches the knowledge base for relevant LangChain information.
-• The retrieved chunks are provided to the language model with the question.
-• The model generates an answer using the retrieved context.
-11. Important RAG Terms
-• Chunk: A smaller section of a document.
-• Embedding: A numerical representation of text meaning.
-• Vector: A list of numbers representing information mathematically.
-• Similarity Search: Finds vectors that are close to a query vector.
-• Context: Retrieved information supplied to the language model.
-• Hallucination: An incorrect or unsupported model-generated statement.
-12. Simple Python + RAG Structure
-• A project can separate document loading, chunking, embeddings, retrieval, and generation into different
-Python files.
-• Example folders: data/, loaders/, embeddings/, vectorstore/, retrieval/, and main.py.
+%PDF-1.4
+%���� ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 6 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 10 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Symbol /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/Contents 12 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 10 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/PageMode /UseNone /Pages 10 0 R /Type /Catalog
+>>
+endobj
+9 0 obj
+<<
+/Author (\(anonymous\)) /CreationDate (D:20260809075510+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260809075510+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
+endobj
+10 0 obj
+<<
+/Count 2 /Kids [ 5 0 R 7 0 R ] /Type /Pages
+>>
+endobj
+11 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1361
+>>
+stream
+GatU3D/\Dn&H:Nn0rf=.])nFSQbZ5l^p_kF8R70gF"\VsO@]ZG26jKm"3\HoYt]K-EM4sQC.K?AR<`E,RDB,h5/-t;B)l9`\9[S[%j7<nhedQ\HA#Y#WukFBp<?nc_LACG(^pYVK,-S]:b8b_YJ3/Z2J.&1!<0bR'a3Zl0PL4ZE'VTD!f\SW"ih?N>GH5$U!T1B2\]@Jc)#q^j(\.&o'$fUs$62o>">((Uu1EXCf\o0LKRpKiP:i2peBs=-=q"5[0-Q6?r$gr#N8gY^iN&bV.Yp:(?o[""'<9'A%WNR7u<n*9LCA;)&K6%Mn(Ao\"TbGK/M7R8=<SECk7lEND([d_IA;IY4\hWr1ICKYO2!Dr?-c,%?6Jn&Ca0`bUO"BmK-=m<9PP3k(V$0$,E/O$UK6S#e<\b=Wf+q(,=6H!XilUYV[>;f!9>:ZbU\.j5Y?N+h`IhYJn?Y0VR'"eGJ^,O6c$5qJ3XH5#^89:mfa`oS22.+MEuL1\&?o7b/$AXAFWQ"f3sajoo*HN?AU"AB),mW>oD3k:tf5V9(PoCK9S*@au,iocPNIUI\5.=,P:3Um.a4,kNqLcuY'iJkaKnS%=5FD#.?+1t`JkEq)(n\\qGi=%)-Er]rDM-KPV@K[`O/PAsQ=3>7l@ZM+RbWNgPMa;%Ki?QcU!@JHg]'Y0I2"7H`WUW/'lCGL(WF%f/+C(Wf$KC4^aDfQmt=W=GiMZn0iVK-M\)AUf5`a!qk25#<10PgH3PUtJmdRfH4(BpgtQb\j-K-j!97npL?rj->(BT4gh8P<hDh[M3<k3"kgqS4p?.-)jfBhG?B02(h5O7$:Q[<Dcmc+n.M8OA\.e<&Rb2U=a7_Ma<Cg$$6q15Q'b'unrU(t3<@<,GBRH5Dk%[L_D!M3L1P53ohWJs!W*Yq7lA`cQfja<8m;L0,QK5?6</hPUMtmsGAD0k<A&3*,1sZstJQFdPJidB7c0c$NZf=OcJ;d.umAZA2!l%$=2/n=Lk72hB1u9#BMTJ=mrL1P^.=ah[;s%V-97),fdc,UCn4@7INV9jWU,=$(O-D^aWFT=P6EC?g,,[[T;KRkW^GN?bm;P`e%@_h1\MKGV)L2E&Bb?ne-+.oX^a'XqB<^3\u#(rP>&d,f;EU5UddTM6:I,E8Ni[5>Cu.-qlkIMiscR&9\(bR/NV(Aa.Ko\/&Am_HVc-#.fHF;n+6%`_4_DG':Y.g=OoFsXTG.N<Vu98`6iB9*>"m'_Ifqr%2@N_*^sH_A.>].Z+TBn+:J7Hqhjl$aJaZ"(gso4[#*Q*]62cg<i_^KPWmdl:@:-Z!SbIk'.+I8d]4mVJB9jPW0?L>rS"fE^A`[2^'DZL,jEgogbg=8r=G@bCV~>endstream
+endobj
+12 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1050
+>>
+stream
+Gatm:9lo#B&A@Zcp<m[/BaH[UJKmlU/p)gP:SrnR'R@N0CtXq].0%"3)4Q^!e"OPcf_Tj)qf^jh*q\[^\R1p/I#Hp'idp8[ZiDcC"qXMf2X3DK]^<j\!*<U]*=bS,g-HB82kcNXg?UV8ILi0S_Wj._cluahR9CfQ3A31Q7KZQpV(Po>DBK]F&Ru59RN-E=A#Oo*V0p_\Ll7dhEeV^C\HL+t0okKiGN%7.Z%Ep@6N%4bh[k3j$\_%V>d4tu]6-Ct25)fD6\9$G_'B;4UCCg3W8-)2KdlDN#'_a0r\<4IN@=QfhgHF@r_XScM?TW^F=[h@$b),iD>8bBaY](?NZe`o`mdJb6:I-n\13Lb,s_i4%'>V\>S3;79kmc<PCOF:8=>&<RC'*uB+bic_Kn'Oa@nt1bp6)+NF;<''"<aWCmT`+(roZ4#6Y!>Yi3E#UBL88-`WV_%BM:#D!ib'!Yn^3"r];?YMaPJ_JEnE.A!oYfC,8tl\EWF\TL<PlFX5-Zcul;3mPcmakmV8;p+_?_)NNY=VSEKL:9"T(q.kd'U!!?KDe^j2*@5(2O;UA+:QD4PPm&aAuD5(hcoc^1)g]mV^K4K1u:(sSnD0kQW1/Yc;Q'V-)9&O`6dpKs6@O%hk<G,r@+(Mpqc0=_!bgb7Qd5jVl2T_RoLE]/iVLQhT=*Cf^+g/V8\b9ZLZT.=#*](Q@>rMg8S9@2*jA\gH$oG8Y1$@V;q\pAMP*mb2cf<7>c%K^4QaV\]opp$5t-2AdU'?%)t*#fKl9S\9[&+].L$H%.,:-p71C#blfXBqFLo8>gFK1-D:4FpWH.tC=b+']\6,o!jm;mC->73(8EnuVX;ke02b*@Sd4fQWUsP:0,reO!:T6VF;?^]d91G.:*Fs!\mM*0E3L>uJZXAOeChhem4H<OK2YuH"V*l:66Z"5C$6o+/kXXUSI/Z]>$n;A&mZ+sMIj<C't%7OncY>7.5d.OK[GWpD[Fp*,\=aL[lFss=9&+iFU?IMlD=5V[hTg,H%s^^F!T/>-&'dFX'6"c@g+%GK+/,JIf\Ybn6Q~>endstream
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000061 00000 n 
+0000000122 00000 n 
+0000000229 00000 n 
+0000000341 00000 n 
+0000000446 00000 n 
+0000000651 00000 n 
+0000000728 00000 n 
+0000000933 00000 n 
+0000001002 00000 n 
+0000001282 00000 n 
+0000001348 00000 n 
+0000002801 00000 n 
+trailer
+<<
+/ID 
+[<7e24363bc060f9645aa5b9a7c66e3ef7><7e24363bc060f9645aa5b9a7c66e3ef7>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 9 0 R
+/Root 8 0 R
+/Size 13
+>>
+startxref
+3943
+%%EOF

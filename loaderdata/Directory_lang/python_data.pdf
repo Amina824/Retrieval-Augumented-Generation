@@ -1,16 +1,99 @@
+%PDF-1.4
+%���� ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/Contents 10 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
 
-1. Python Overview
-• Python is a high-level, general-purpose programming language with readable syntax and a large ecosystem.
-• Python is widely used in artificial intelligence, machine learning, data science, automation, web development,
-and scripting.
-• Important concepts include variables, data types, conditions, loops, functions, classes, modules, exceptions,
-and file handling.
-2. Python Data Types
-• Common types include int, float, str, bool, list, tuple, dict, and set.
-• Lists store ordered collections, dictionaries store key-value pairs, and sets store unique values.
-3. Python Functions
-• A function is a reusable block of code that performs a task. It can receive parameters and return a result.
-• Functions help divide an application into smaller and easier-to-maintain components.
-4. Python File Handling
-• Python can read and write files using the built-in open() function.
-• File handling is useful for loading text and other data before pr
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/PageMode /UseNone /Pages 9 0 R /Type /Catalog
+>>
+endobj
+8 0 obj
+<<
+/Author (\(anonymous\)) /CreationDate (D:20260809075510+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260809075510+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+>>
+endobj
+9 0 obj
+<<
+/Count 2 /Kids [ 5 0 R 6 0 R ] /Type /Pages
+>>
+endobj
+10 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1299
+>>
+stream
+GatU2gMZ%0&:Ml+$j7:1'TQtNng+M:ODZ$((3rFe`kKrNTV\p4RNbapMUtts^NW5j%\,RZf80N86>FeNcCC:>L@gB%HWC4GZ@JS8@u(e#X<C=D.4cOu\&Hl^=)iS.4Fua-1mlO*BCl<I%/kb6>g]nJd2Y;OP,STDR5:*Rc;5.oK6T5@dJ4uAhW*H.8m]EpDcloC2lEPVq?O]/JWoVJ!2i#8R02l*PZFitc7FGL4GPVY9firM@08f0)L@4ELM3C_DLb$h2oUcl-PV!]TL@&C9i^LO)2(V_NFlbDjTYjOS!n1*[SlK<XHa!L/8$Ja@.r$S0>M*n"pNHp4?2389UWT!=Fs_/i%*&/7l(DTQJT>=YT;%em%H>)".-g1j_LH--Kpdb+ZRH0@38+-'jMpgA6Mm$IE7gf?o$T/ZeDFB\Q\W6LF^GOVGpQi[/FKr/o["g?<OQFN\0ZOg3Hl/Tm`g9\XXV2m9cEfMg^:+"?O7k4$go"o6CR:/KPb0ZpU\iL`4)FbX0;pXKY:%?l$.Gomo$;7#\&6Kg%*Kl-pGf%_G&iA$R^gW"#+T.tAMK*5kQaDo#]e`<\KEN0hJZQe8'!S-IC@LFNGRNR`*Spr+9ThgHV"X*6kR@Ib2XPu;'$$V`LVQG7(L?jJ?TFuO=>9lNJa-!DagUF'/U8dP&mkQJhF0?Eg.4F%<`c817U!d9M!RtgVOj#W-kFSFMb#(Ngec5gBCg(-eU@AMkY*HX[n"rg3`ldUkiM+P>Bp'%Kf*Ok7SDS0>aEKbpVqgcPs4$Si5&a]/;o[8ck.A/+gU!jpFirIr:ZD<qr@OV-XVU:GLkKU0fU;NP/Ripl%FC.\eLgX4P8b^*lRb"WGJ7^KNXGp<<Pu-/bdEn__&`*jP79mE>VP<Y.BEQH%2Ag]p)'3)\iDHAV^oYNQO_K!i<SFQ'>HPL^R(9E]Ds[GIE=EkHBU:m(8mG]KO7NqH:SY$Lm0SnVW'5TOQbGnD48rQC`jh;nkC]JlNckjI/[(54.SWgU4PY<Jn,],8QZVicHsn*fFP;#_I0'8+&kqEV;B9\\[%EfQ>'T2@g$1Wa^S5?F-U'Cd\62[tAgD)*>]6Dm8:Yq!Im3tRe(4kEfE_r:n'@qHaf#`tn*GnAcVMqq-e1,`c:M^5p=BtT7#i/4*89EH:Ck^9$fOibJE,n'f;W`TB@(a@6'%4W^^&#[T]ChD\Sd5mP3S>\[m;saV7@lej)2,;$EGY@bMMf9!8aWJouUo8bFDjhP/J7hk/igfXDW`^$p'7_Zpto+*7+%:!imfe1Y-O27=]@M0/9)H4o~>endstream
+endobj
+11 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 541
+>>
+stream
+Gat=&?&RGk&:F5U(]jl="P:r>SZgCq'\ZGU+]nU*(Id%'C+[OT.I#['mom9FO\f5[%:[`Qm-Mrr6HO_B:2,6>%GlN9:ef>R;9b"ZRMA"DfgAe'="\B040OOQ^8i-6]if^93c@EFUt3D@XA"=sQZ92F&GMYGM?Op9m:WAQOS`*Hp\^A<HaoY`Ru`eiU54kM1r77og+c"2<d41bN91A6\&cBmUrS9%.8b=&Wm0;g90k&m]sb2jLUu(GbIG;";Vmsu4T'3g'(aT!;g'D1>c4"A:N>hS[)MSdKN7f]r,TVp`H60*rKCr!SuC;E1/TVUVuibN`nBbdLHl45qS3HcpRRToC1dW,,R%hS,C8g=>#@P_2dUaRd/[$=*Xp_Xc3^?7DN`d;gWM!:+f#7/%B6$J9Q26p#;km^,6ID[TXke[G7ZifEJh>(r7-DPm!gThin8u8]o^)X*G8A7=5\0gglp^i6jL7efUmOEq5$Kj&EP@H01Y#pUSG&s2J@G`e4am\)MeoAHH%@>LJ8;A3I$M5lJ&^oAA80@(@oN~>endstream
+endobj
+xref
+0 12
+0000000000 65535 f 
+0000000061 00000 n 
+0000000112 00000 n 
+0000000219 00000 n 
+0000000331 00000 n 
+0000000436 00000 n 
+0000000640 00000 n 
+0000000844 00000 n 
+0000000912 00000 n 
+0000001192 00000 n 
+0000001257 00000 n 
+0000002648 00000 n 
+trailer
+<<
+/ID 
+[<b37e8161ab144a53b7a8b0c1bceeeb15><b37e8161ab144a53b7a8b0c1bceeeb15>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 8 0 R
+/Root 7 0 R
+/Size 12
+>>
+startxref
+3280
+%%EOF

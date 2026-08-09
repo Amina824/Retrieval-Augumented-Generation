@@ -1,3 +1,10 @@
-from langchain_community.document_loaders import DirectoryLoader
+from langchain_community.document_loaders import DirectoryLoader, PyPDFLoader
 
-loader = DirectoryLoader('C:\RETREIEVAL_AUGUMENTED_GENERATION\')
+loader = DirectoryLoader(
+    path='C:/RETRIEVAL_AUGUMENTED_GENERATION/loaderdata/Directory_lang',
+    glob='*.pdf',
+    loader_cls=PyPDFLoader
+    )
+
+chunks = loader.load()
+print(chunks)
