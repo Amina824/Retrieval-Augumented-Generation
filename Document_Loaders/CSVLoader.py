@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import CSVLoader
 
-loader = CSVLoader('C:/RETRIEVAL_AUGUMENTED_GENERATION/loaderdata/lang_data.csv')
+loader = CSVLoader('C:/RETRIEVAL_AUGUMENTED_GENERATION/Document_Loaders/loaderdata/lang_data.csv')
 chunks = loader.load()
 
 print(chunks)
