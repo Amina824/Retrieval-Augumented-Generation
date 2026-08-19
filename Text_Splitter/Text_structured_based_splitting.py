@@ -1,4 +1,4 @@
-from langchain_text_splitters import RecursiveTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 text = """
 # LangChain
@@ -34,10 +34,10 @@ A user asks, "What is machine learning?"
 The LLM processes the question and generates an answer.
 """
 
-splitter = RecursiveTextSplitter(
+splitter = RecursiveCharacterTextSplitter(
     chunk_size=50,
     chunk_overlap=10
 )
 
-result = splitter.split(text)
+result = splitter.split_text(text)
 print(result)
