@@ -36,8 +36,11 @@ The LLM processes the question and generates an answer.
 
 splitter = CharacterTextSplitter(
     chunk_size= 50,
-    chunk_overlap=0,
-    separator= ""
+    chunk_overlap= 10,
+    separator = "",
 )
-result = splitter.split_text(text)
-print(result)
+
+chunks = splitter.split_text(text)
+
+print(len(chunks))
+print(chunks[0])

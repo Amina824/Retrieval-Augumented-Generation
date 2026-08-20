@@ -35,9 +35,11 @@ The LLM processes the question and generates an answer.
 """
 
 splitter = RecursiveCharacterTextSplitter(
-    chunk_size=50,
-    chunk_overlap=10
+    chunk_size = 50,
+    chunk_overlap=10,
 )
 
-result = splitter.split_text(text)
-print(result)
+chunks = splitter.split_text(text)
+
+print(chunks)
+print(len(chunks))
