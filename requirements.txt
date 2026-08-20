@@ -5,3 +5,4 @@ python-dotenv
 numpy
 streamlit
 langchain-community
+langchain-chroma
