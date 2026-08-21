@@ -68,5 +68,4 @@ docs = myvector_store.get(include=['documents'])
 #print(docs)
 
 #Delete document
-my
 
